@@ -187,7 +187,7 @@ const Beginner = () => {
         const organizedSkills = organizeSkills(data.repositories);
         setSkills(organizedSkills);
         
-        const aiResponse = await fetch('/api/ai_suggest', {
+        const aiResponse = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/ai_suggest`, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',

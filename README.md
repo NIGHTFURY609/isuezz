@@ -72,8 +72,6 @@ npm install
 # Create a `.env` file and add necessary keys
 
 # Start the frontend server
-npm run dev
-```  
 
 ##### Run  
 ```bash
